@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova:ital,wght@0,400..700;1,400..700&family=Inclusive+Sans:ital@0;1&display=swap" rel="stylesheet">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .ibarra-real-nova {
+            font-family: "Ibarra Real Nova", serif;
+            font-weight: 400; 
+        }
+
+        .inclusive-sans-regular {
+            font-family: "Inclusive Sans", sans-serif;
+        }
+
+        .card_profile {
+            width: 500px;
+            height: 500px;
+            background-image: url(img/fondo.jpg);
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            position: relative;
+            padding: 20px;
+        }
+
+        .header {
+            display: flex;
+            justify-content: flex-start; 
+            align-items: center;
+        }
+
+        .grande {
+            font-size: 64px;
+        }
+
+        .pequeño {
+            font-size: 25px;
+        }
+
+        .pink {
+            color: #FF0084;
+        }
+
+        .estrella, .tik {
+            width: 10px;
+            height: 10px;
+        }
+
+        .insignia {
+            width: 40px;
+            height: 40px;
+            margin-right: 20px; 
+        }
+
+        .parrafor {
+            margin-top: 20px;
+        }
+
+        .izq {
+            text-align: left;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="card_profile">
+        <div class="header">
+            <img class="insignia" src="img/insignia.svg" alt="Insignia">
+            <p class="inclusive-sans-regular pequeño">Organizational</p>
+        </div>
+        <div>
+            <h1 class="ibarra-real-nova grande pink">Visioning</h1>
+        </div>
+        <div class="parrafor">
+            <p class="inclusive-sans-regular pequeño izq">Learn how to strategize and<br>formulate your own professional goals...</p>
+        </div>
+        <div>
+            <img class="estrella" src="img/estrella.svg" alt="estrella">
+            <p class="inclusive-sans-regular pequeño">4.6</p>
+        </div>
+        <div>
+            <img class="tik" src="img/tik.svg" alt="tik">
+            <p class="inclusive-sans-regular pequeño">100%</p>
+        </div>
+    </div>
+</body>
+</html>
